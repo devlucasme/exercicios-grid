@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(4, auto);
+    background-color: #f7f7f7;
+    width: 900px;
+    height: 415px;
+    padding: 20px;
+    grid-gap: 10px;
+    position: relative;
+}
+
+.container .conteudo-principal {
+    background-color: #C4C4C4;
+    width: 543px;
+    height: 217px;
+    grid-area: 1 / 1 / 4 / 4;
+}
+
+.container .conteudo-principal .conteudo{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 60px;
+    gap: 10px;
+}
+
+.container .conteudo-principal .conteudo h1{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.container .conteudo-principal .conteudo p{
+    font-size: 14px;
+}
+
+.container .section {
+    background-color: #C4C4C4;
+    width: 270px;
+    height: 56px;
+}
+
+.container .section .propaganda{
+    text-align: center;
+    padding: 20px;
+}
+
+
+.container .item-1 {
+    background-color: #C4C4C4;
+    width: 100px;
+    height: 71px;
+    grid-area: 2 / 4 / 2 / 4;
+    position: relative;
+}
+
+.container .item-2 {
+    background-color: #C4C4C4;
+    width: 100px;
+    height: 71px;
+    grid-area: 3 / 4 / 3 / 4;
+    position: relative;
+}
+
+.container .item-3 {
+    background-color: #C4C4C4;
+    width: 100px;
+    height: 71px;
+    grid-area: 4 / 4 / 4 / 4;
+    position: relative;
+}
+
+.container .conteudo-itens{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 110px;
+    gap: 8px;
+}
+
+.container .conteudo-itens h2{
+    font-size: 14px;
+    font-weight: 700;
+    width: 162px;
+}
+
+.container .conteudo-itens p{
+    font-size: 11px;
+}
+
+
